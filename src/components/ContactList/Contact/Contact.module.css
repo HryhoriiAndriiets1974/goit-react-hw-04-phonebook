@@ -1,0 +1,23 @@
+.contacts__number {
+  color: var(--bg-team);
+}
+
+.contacts__btn {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: max-content;
+  padding: 5px;
+  color: var( --title-text-color);
+  background-color: var(--bg-color);
+  border: 3px solid var( --title-text-color);
+  border-radius: 10px;
+}
+
+.contacts__btn:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+
+}

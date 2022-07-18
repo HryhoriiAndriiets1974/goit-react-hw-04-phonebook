@@ -1,0 +1,27 @@
+.filter__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  color: var(--title-text-color);
+  margin-top: 20px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.filter__input {
+  width: 50%;
+  margin-left: 20px;
+  height: 28px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--title-text-color);
+  border: 2px solid var( --bg-color);
+  border-radius: 10px;
+}
+
+.filter__input:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  width: 620px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  background: linear-gradient(lightblue, greenyellow);
+  padding: 30px;
+}
+
+.wrapper__title {
+ text-align: center;
+}
+
+.wrapper__message {
+  color: var(--primary-text-color);
+  font-size: 24px;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.contacts {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
